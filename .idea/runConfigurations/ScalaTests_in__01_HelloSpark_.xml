@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ScalaTests in '01-HelloSpark'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
+    <module name="HelloSpark" />
+    <option name="allowRunningInParallel" value="false" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="testKind" value="All in package" />
+    <option name="envs">
+      <map>
+        <entry key="HADOOP_HOME" value="$USER_HOME$/hadoop27" />
+      </map>
+    </option>
+    <option name="javaOptions" value="-Dlog4j.configuration=file:log4j.properties -Dlogfile.name=hello-spark -Dspark.yarn.app.container.log.dir=app-logs" />
+    <option name="jrePath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home" />
+    <option name="searchTest" value="In whole project" />
+    <option name="shortenClasspath" value="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

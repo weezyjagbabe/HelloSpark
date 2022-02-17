@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HelloSpark" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="HADOOP_HOME" value="$USER_HOME$/hadoop27" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.spark.examples.HelloSpark" />
+    <module name="HelloSpark" />
+    <option name="PROGRAM_PARAMETERS" value="data/sample.csv" />
+    <option name="VM_PARAMETERS" value="-Dlog4j.configuration=file:log4j.properties -Dlogfile.name=hello-spark -Dspark.yarn.app.container.log.dir=app-logs" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.spark.examples.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
